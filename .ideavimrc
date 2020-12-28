@@ -1,0 +1,26 @@
+let mapleader=' '
+
+" enable vim plugin emulation
+set surround
+
+nnoremap gi :action GotoImplementation<CR>
+
+" esc rebindings
+inoremap jj <Esc>
+
+" move lines rebindings
+nnoremap <A-j> :action MoveLineDown<CR>
+nnoremap <A-k> :action MoveLineUp<CR>
+vnoremap <A-j> :action MoveLineDown<CR>
+vnoremap <A-k> :action MoveLineUp<CR>
+
+nnoremap <Leader>w :w<CR>
+nnoremap <Leader>q :q<CR>
+
+" useful idea actions bindings
+nnoremap <Leader>h :action TypeHierarchy<CR>
+nnoremap <Leader>u :action ShowUsages<CR>
+nnoremap <Leader>m :action HideActiveWindow<CR>
+nnoremap <Leader>e :action GotoNextError<CR>
+nnoremap <Leader>c :action Git.CompareWithBranch<CR>
+nnoremap <Leader>a :action Annotate<CR>

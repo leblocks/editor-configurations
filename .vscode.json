@@ -1,0 +1,45 @@
+{
+  "breadcrumbs.enabled": false,
+  "explorer.confirmDelete":false,
+  "editor.minimap.enabled": false,
+  "editor.suggestSelection": "first",
+  "files.eol": "\n",
+  
+  "window.menuBarVisibility":"toggle",
+  "window.zoomLevel":1,
+  "window.titleBarStyle":"native",
+
+  "workbench.sideBar.location":"right",
+  "workbench.colorTheme":"Monokai",
+  "workbench.activityBar.visible":false,
+  "workbench.statusBar.visible": true,
+
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "rgb(255, 255, 255, 0.5)",
+  "vim.highlightedyank.duration": 500,
+  
+  "vim.searchHighlightColor": "rgb(0, 255, 33, 0.5)",
+  "vim.hlsearch": true,
+  "vim.incsearch": true,
+  "vim.ignorecase": true,
+  "vim.foldfix": true,
+  "vim.statusBarColorControl":true,
+    
+  "vim.handleKeys": {
+      "<C-f>": false,
+      "<C-a>": false,
+    },
+    
+  "vim.insertModeKeyBindings": [
+      { "before": ["j", "j"], "after": ["<Esc>"] },
+    ],
+    
+  "vim.leader": "<space>",
+  "vim.normalModeKeyBindingsNonRecursive": [
+      { "before": ["leader", "o"], "commands": ["workbench.action.gotoSymbol"] },
+      { "before": ["leader", "q"], "commands": ["workbench.action.closeActiveEditor"] },
+      { "before": ["leader", "w"], "commands": ["workbench.action.files.save"] },
+      { "before": ["leader", "<space>"], "commands": [":nohl"] },
+    ]
+}
+  
