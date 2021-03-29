@@ -19,7 +19,6 @@ set fileencodings=utf-8
 
 set showcmd " show commands in normal mode
 set hlsearch " enable search result highlighting
-set novisualbell " disable screen blinking
 
 set smartcase
 set incsearch
