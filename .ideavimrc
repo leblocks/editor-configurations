@@ -2,6 +2,8 @@ let mapleader=' '
 
 " enable vim plugin emulation
 set surround
+" enable yank highlighting
+set highlightedyank
 
 nnoremap gi :action GotoImplementation<CR>
 
