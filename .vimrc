@@ -41,3 +41,13 @@ colorscheme elflord
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 inoremap jj <Esc> " esc rebindings
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" leader remappings
+
+let mapleader=" "
+
+nnoremap <leader>l :ls<CR>
+nnoremap <leader>n :next<CR>
+nnoremap <leader>p :prev<CR>
