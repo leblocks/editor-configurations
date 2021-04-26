@@ -49,5 +49,5 @@ inoremap jj <Esc> " esc rebindings
 let mapleader=" "
 
 nnoremap <leader>l :ls<CR>
-nnoremap <leader>n :next<CR>
-nnoremap <leader>p :prev<CR>
+nnoremap <leader>n :bnext<CR>
+nnoremap <leader>p :bprev<CR>
