@@ -48,7 +48,7 @@ inoremap jj <Esc> " esc rebindings
 
 let mapleader=" "
 
-nnoremap <Leader>l :ls<CR> " show buffer list
+nnoremap <Leader>l :ls<CR>
 nnoremap <Leader>f :bnext<CR> " move (f)orward in a buffer list
 nnoremap <Leader>b :bprev<CR> " move (b)ack in a buffer list
 nnoremap <Leader>g :e#<CR> " go to last edited buffer
