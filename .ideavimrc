@@ -26,3 +26,29 @@ nnoremap <Leader>m :action HideActiveWindow<CR>
 nnoremap <Leader>e :action GotoNextError<CR>
 nnoremap <Leader>c :action Git.CompareWithBranch<CR>
 nnoremap <Leader>a :action Annotate<CR>
+
+
+" bookmarks bindings
+nnoremap <Leader>l :action ShowBookmarks<CR>
+nnoremap g1 :action GotoBookmark1<CR>
+nnoremap g2 :action GotoBookmark2<CR>
+nnoremap g3 :action GotoBookmark3<CR>
+nnoremap g4 :action GotoBookmark4<CR>
+nnoremap g5 :action GotoBookmark5<CR>
+nnoremap g6 :action GotoBookmark6<CR>
+nnoremap g7 :action GotoBookmark7<CR>
+nnoremap g8 :action GotoBookmark8<CR>
+nnoremap g9 :action GotoBookmark9<CR>
+nnoremap g0 :action GotoBookmark0<CR>
+
+nnoremap <Leader>b :action ToggleBookmark<CR>
+nnoremap <Leader>1 :action ToggleBookmark1<CR>
+nnoremap <Leader>2 :action ToggleBookmark2<CR>
+nnoremap <Leader>3 :action ToggleBookmark3<CR>
+nnoremap <Leader>4 :action ToggleBookmark4<CR>
+nnoremap <Leader>5 :action ToggleBookmark5<CR>
+nnoremap <Leader>6 :action ToggleBookmark6<CR>
+nnoremap <Leader>7 :action ToggleBookmark7<CR>
+nnoremap <Leader>8 :action ToggleBookmark8<CR>
+nnoremap <Leader>9 :action ToggleBookmark9<CR>
+nnoremap <Leader>0 :action ToggleBookmark0<CR>
