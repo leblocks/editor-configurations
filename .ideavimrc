@@ -26,6 +26,8 @@ nnoremap <Leader>m :action HideActiveWindow<CR>
 nnoremap <Leader>e :action GotoNextError<CR>
 nnoremap <Leader>c :action Git.CompareWithBranch<CR>
 nnoremap <Leader>a :action Annotate<CR>
+nnoremap <Leader>f :action CollapseBlock<CR>
+nnoremap <Leader>n :action ExpandRegion<CR>
 
 
 " bookmarks bindings
